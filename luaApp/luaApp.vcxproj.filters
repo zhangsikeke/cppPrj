@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\RegisterClass">
+      <UniqueIdentifier>{8532afca-d7f1-4eb1-b969-de061187fd03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\CallFunction.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CommonUtil.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Log.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\LuaAdapter.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\OpenTestItf.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\RegisterC.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\CallFunction.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\CommonUtil.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Log.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\LuaAdapter.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\LuaPort.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\OpenTestItf.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\RegisterC.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\luaAPI.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code\OpenLuaItf.hpp">
+      <Filter>Resource Files\RegisterClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

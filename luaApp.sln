@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luaApp", "luaApp\luaApp.vcxproj", "{C6A818BC-5E94-4CA5-A446-C88526E4DDDC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua5.3.1", "lua5.3.1\lua5.3.1.vcxproj", "{AAAD3FDB-A08C-4E05-B9A2-041963BC6FFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6A818BC-5E94-4CA5-A446-C88526E4DDDC}.Debug|Win32.ActiveCfg = Release|Win32
+		{C6A818BC-5E94-4CA5-A446-C88526E4DDDC}.Debug|Win32.Build.0 = Release|Win32
+		{C6A818BC-5E94-4CA5-A446-C88526E4DDDC}.Release|Win32.ActiveCfg = Release|Win32
+		{C6A818BC-5E94-4CA5-A446-C88526E4DDDC}.Release|Win32.Build.0 = Release|Win32
+		{AAAD3FDB-A08C-4E05-B9A2-041963BC6FFA}.Debug|Win32.ActiveCfg = Release|Win32
+		{AAAD3FDB-A08C-4E05-B9A2-041963BC6FFA}.Debug|Win32.Build.0 = Release|Win32
+		{AAAD3FDB-A08C-4E05-B9A2-041963BC6FFA}.Release|Win32.ActiveCfg = Release|Win32
+		{AAAD3FDB-A08C-4E05-B9A2-041963BC6FFA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
